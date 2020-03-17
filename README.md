@@ -35,7 +35,7 @@ After the user navigates to Tab 2 (Photos), they can tap/click on the camera but
 5) Run on iOS or Android: See [here](https://ionicframework.com/docs/building/running).
 
 ## Run on Android
-0) Delete directory android: `rm -fr android`
+0) Delete directory android: `rm -rf android`
 1) Create web assets directory: `mkdir www && touch www/index.html`
 2) Add path to android studio: edit capacitor.config.json and add this line "linuxAndroidStudioPath": "[install_path]/android-studio/bin/studio.sh"
 3) Run android studio and deploy into device: `ionic capacitor run android`
